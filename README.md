@@ -1,4 +1,5 @@
-# happy-pswd
+# Moody password avatar
+
 
 ## Project setup
 ```
