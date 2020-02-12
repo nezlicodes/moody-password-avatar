@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Happy password</h1>
+    <h1>Moody password avatar</h1>
     <div class="container main">
       <div id="form">
         <form>
@@ -55,18 +55,28 @@ export default class HelloWorld extends Vue {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
+h1{
+  padding: 1em
+}
 .container {
   display:flex;
   justify-content:space-around;
   flex-wrap:wrap; 
-  align-content:center;
+  align-content:space-around;
+
 
 }
 
  .main {
-max-width: 80%
+  display:flex;
+  justify-content: center;
+  align-content: center
 }
+
+#form{
+  margin-right:5em
+}
+
 .form-group{
   padding: 12px
 }

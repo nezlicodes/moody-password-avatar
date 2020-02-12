@@ -1,10 +1,10 @@
 <template>
      <div id="emoji">
         <div class="face">
-          <div class="ears container">
+        <!--   <div class="ears container">
              <div class="ear left"></div>
             <div class="ear right"></div>
-          </div>
+          </div> -->
            <div class="eyes container">
              <div class="eye left"></div>
             <div class="eye right"></div>
@@ -78,7 +78,7 @@ export default class Avatar extends Vue {
   justify-content: center;
   border-top: solid 5px red;
   align-content: center;
-  transform: translate(20px,70px);
+  transform: translate(30px,70px);
   border-radius: 10%;
 }
 
